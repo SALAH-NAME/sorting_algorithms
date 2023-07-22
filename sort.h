@@ -27,5 +27,6 @@ void quick_sort_rec(int *array, ssize_t start, ssize_t end, size_t size);
 ssize_t partition(int *array, ssize_t start, ssize_t end, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
 
 #endif /* SORT_H */

@@ -9,6 +9,7 @@
 void swap(int *array, int i, int j)
 {
 	int temp = array[i];
+
 	array[i] = array[j];
 	array[j] = temp;
 }
@@ -58,7 +59,7 @@ void heapify(int *array, size_t size)
 }
 
 /**
- * heap_sort - sorts an array of integers in ascending order using the Heap sort algorithm
+ * heap_sort - sorts an array of ints in ascending order using the Heap sort
  * @array: array of integers
  * @size: size of the array
  */
